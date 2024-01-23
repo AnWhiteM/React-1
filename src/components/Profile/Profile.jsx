@@ -1,4 +1,4 @@
-import './Profile.css'
+import css from './Profile.module.css';
 
 export const Profile = ({profile: {username, tag, location, avatar, stats: {followers, views, likes} }}) => {
     return(
@@ -9,32 +9,32 @@ export const Profile = ({profile: {username, tag, location, avatar, stats: {foll
             <p className="tag">@{tag}</p>
             <p className="location">{location}</p>
             </div>
-
+        <div className='listBlock'>
             <ul className="stats">
                 <li>
-                    <div className='listBlock'>
+                    
                         <span className="label">Followers</span>
                         <span className="value">{followers}</span>
-                    </div>
+                    
                     
                 </li>
                 <li>
-                    <div className='listBlock'>
+                    
                         <span className="label">Views</span>
                         <span className="value">{views}</span>
-                    </div>
+                    
                     
                 </li>
-                <li>
-                    <div className='listBlock'>
+                <li >
+                    
                         <span className="label">Likes</span>
                         <span className="value">{likes}</span>
-                    </div>
+                    
                     
                 </li>
             </ul>
-        
             
+            </div>
         </div>
     )
     
