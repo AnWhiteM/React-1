@@ -1,0 +1,48 @@
+body{
+    justify-content: center;
+    background-color: #fff;
+    
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #FAFAFA;
+    color: #000;
+    padding: 15px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.avatar{
+    border-radius: 50%;
+    background-color: #2A2A2A;
+}
+.tag ,.location{ 
+    color: #808080;
+    margin: 0;
+}
+.name{
+    margin: 0;
+}
+.stats{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.listBlock{
+    border: 2px solid 808080;
+    background-color: #D3D3D3;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
