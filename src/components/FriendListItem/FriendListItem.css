@@ -1,26 +1,35 @@
-.friend-list {
+.friend-list-FLI {
     list-style: none;
     padding: 0;
   }
   
-  .item {
+  .item-FLI {
     display: flex;
+    flex-direction: column;
     align-items: center;
     margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 6px;
   }
-  
-  .avatar {
+  .name-FLI{
+    color: black;
+    margin: 0;
+  }
+  .avatar-FLI {
     margin-right: 10px;
   }
   
-  .status {
+  .status-FLI {
     font-weight: bold;
+    margin: 0;
   }
   
-  .online {
+  .online-FLI {
     color: green;
   }
   
-  .offline {
+  .offline-FLI {
     color: red;
   }
