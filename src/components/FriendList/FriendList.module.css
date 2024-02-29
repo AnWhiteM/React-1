@@ -1,8 +1,8 @@
-.friend-list-fl{
+.friendList{
     display: flex;
     list-style: none;
     padding: 0;
 }
-.friend-list-fl li{
+.friendList li{
     padding-right: 10px;
 }

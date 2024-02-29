@@ -1,5 +1,5 @@
 
-.profile-pf {
+.profile {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,29 +16,29 @@
     width: 250px;
 }
 
-.description-pf {
+.description {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.avatar-pf {
+.avatar {
     border-radius: 50%;
     background-color: #2A2A2A;
     
 }
 
-.tag-pf, .location-pf {
+.tag, .location {
     color: #808080;
     margin: 0;
 }
 
-.name-pf {
+.name {
     margin: 0;
 }
 
-.stats-pf {
+.stats{
     list-style: none;
     display: flex;
     padding: 0;
@@ -46,7 +46,7 @@
     margin: 0;
 }
 
-.stats-pf li{
+.stats li{
     display: flex;
     flex-direction: column;
     margin-right: 20px;
@@ -54,12 +54,12 @@
     align-items: center;
     border-right: 2px solid #2A2A2A;
 }
-.stats-pf li:last-child {
+.stats li:last-child {
     border-right: none;
 }
 
 
-.listBlock-pf {
+.listBlock {
     margin-top: 10px;
     padding: 0;
     width: 100%;
@@ -71,6 +71,6 @@
     flex-direction: column;
     align-items: center;
 }
-.value-pf{
+.value{
     font-weight: 600;
 }
